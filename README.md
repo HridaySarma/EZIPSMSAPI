@@ -46,6 +46,13 @@ Add it in your root build.gradle at the end of repositories:
     private Response response;
     private String url;
     private OkHttpClient client = new OkHttpClient();
+    
+    #### On yor onCreate initialize the smsClient
+    
+    ```
+    smsClient = new SMSClient(MainActivity.this);
+    ```
+    
 ```
 
 Do your backend and when you get the phone number and message cexecute the AsyncTask to run it in background and send request 👍 
