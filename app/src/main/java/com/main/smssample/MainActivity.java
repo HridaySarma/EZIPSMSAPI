@@ -23,7 +23,7 @@ import okhttp3.Response;
 public class MainActivity extends AppCompatActivity {
 
     private SMSClient smsClient ;
-    private String AuthKey = "1b2220e99512f33b77f47c64fa8c248";
+    private String AuthKey = "YOUR AUTH KEY";
     private String Message = "";
     private String PhoneNumber = "";
     private String SenderId = "DEMOOS";
